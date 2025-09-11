@@ -185,6 +185,8 @@ header {
 
 }
 
+
+
 footer {
     margin-top: auto;
     display: flex;
@@ -244,7 +246,10 @@ a {
     color:#333;
     line-height: 1.5;
 }
-
+.link-fixes{
+    color:#0000ee;
+    text-decoration: underline;
+}
 
 
 @media screen and (max-width:980px) {
