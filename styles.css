@@ -317,16 +317,17 @@ a {
 
 @media screen and (max-width:390px) {
     .header-links{
-        font-size:12px;
+        font-size:11px;
     }
     .group-names{
         
         flex-direction:column;
+        margin-bottom:20px;
 
     }
     .group-names img{
         max-width:100%;
-        max-height:100%;
+        height:auto;
 
     }
     
