@@ -223,7 +223,6 @@ th{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    color:#0000ee;
 }
 
 .heading-indent{
@@ -247,7 +246,7 @@ a {
     color:#333;
     line-height: 1.5;
 }
-.link-fixes:hover{
+.group-names:hover{
     
     text-decoration: underline;
 }
