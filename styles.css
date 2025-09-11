@@ -247,8 +247,8 @@ a {
     color:#333;
     line-height: 1.5;
 }
-.link-fixes{
-    color:#0000ee;
+.link-fixes:hover{
+    
     text-decoration: underline;
 }
 
