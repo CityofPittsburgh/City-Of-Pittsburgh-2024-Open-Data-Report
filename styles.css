@@ -38,7 +38,6 @@ header {
     width: 200px;
     height: 100vh;
     z-index: 10;
-    
     overflow-y: auto;
     box-sizing: border-box;
     flex-shrink: 0;
