@@ -15,23 +15,3 @@ for (i = 0; i < coll.length; i++) {
 
 //wingding mode (dont leave this in!)
 
-document.addEventListener("DOMContentLoaded", () => {
-
-    const checkBox = document.querySelector('.dingButton');
-    if (checkBox) {
-        checkBox.addEventListener('change', function () {
-
-            if (this.checked) {
-                document.body.style.fontFamily = "Webdings, Arial, sans-serif"
-                console.log("wingding mode on")
-            }
-            else {
-                document.body.style.fontFamily = "Segoe UI, Tahoma, Geneva, Verdana, sans-serif";
-                console.log("wingding mode off")
-            }
-
-        });
-    } else {
-        console.error("No element found with .dingButton");
-    }
-});
