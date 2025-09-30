@@ -13,3 +13,14 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
+var checkBox = document.getElementsByClassName("dingButton");
+checkBox.addEventListener('change', function() {
+
+    if (this.checked){
+        document.body.style.fontFamily = "Wingdings, Wingdings 2, Wingdings 3, sans-serif";
+    }
+    else{
+        document.body.style.fontFamily = "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+    }
+
+});
