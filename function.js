@@ -13,16 +13,25 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
-var checkBox = document.querySelector('.dingButton');
-checkBox.addEventListener('change', function() {
+//wingding mode (dont leave this in!)
 
-    if (this.checked){
-        document.body.style.fontFamily = "Wingdings, Wingdings 2, Wingdings 3, sans-serif";
-        console.log("wingding mode on")
-    }
-    else{
-        document.body.style.fontFamily = "Segoe UI, Tahoma, Geneva, Verdana, sans-serif";
-        console.log("wingding mode off")
-    }
+document.addEventListener("DOMContentLoaded", () => {
 
+    const checkBox = document.querySelector('.dingButton');
+    if (checkBox) {
+        checkBox.addEventListener('change', function () {
+
+            if (this.checked) {
+                document.body.style.fontFamily = "Wingdings, Wingdings 2, Wingdings 3, sans-serif";
+                console.log("wingding mode on")
+            }
+            else {
+                document.body.style.fontFamily = "Segoe UI, Tahoma, Geneva, Verdana, sans-serif";
+                console.log("wingding mode off")
+            }
+
+        });
+    } else {
+        console.error("No element found with .dingButton");
+    }
 });
