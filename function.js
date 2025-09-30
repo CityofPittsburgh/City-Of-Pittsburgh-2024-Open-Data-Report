@@ -13,7 +13,7 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
-var checkBox = document.getElementsByClassName("dingButton");
+var checkBox = document.querySelector(".dingButton");
 checkBox.addEventListener('change', function() {
 
     if (this.checked){
