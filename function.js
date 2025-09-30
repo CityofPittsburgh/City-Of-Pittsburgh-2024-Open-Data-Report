@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         checkBox.addEventListener('change', function () {
 
             if (this.checked) {
-                document.body.style.fontFamily = "Arial, Georgia, sans-serif";
+                document.body.style.fontFamily = "Webdings, Arial, sans-serif"
                 console.log("wingding mode on")
             }
             else {
