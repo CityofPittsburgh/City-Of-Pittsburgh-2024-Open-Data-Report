@@ -18,9 +18,11 @@ checkBox.addEventListener('change', function() {
 
     if (this.checked){
         document.body.style.fontFamily = "Wingdings, Wingdings 2, Wingdings 3, sans-serif";
+        console.log("wingding mode on")
     }
     else{
-        document.body.style.fontFamily = "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
+        document.body.style.fontFamily = "Segoe UI, Tahoma, Geneva, Verdana, sans-serif";
+        console.log("wingding mode off")
     }
 
 });
